@@ -1,0 +1,50 @@
+body{
+    background-color: chocolate;
+    height: 100%;
+}
+
+video{
+    position: fixed;
+    top: 50%;
+    left:50%;
+    margin-top: -50%;
+    margin-left: -50%;
+    z-index: 1;
+    opacity:0.8
+}
+
+div{
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    max-width: 720px;
+    margin-top: 100px;
+    text-align: center;
+   
+}
+
+h1{
+    margin-bottom: 25px;
+    color: cornsilk;
+    font-size: 50px;
+    background-color: orangered;
+    border-radius: 20px;
+}
+
+p{
+    color: darkred;
+    background-color: rgb(8, 248, 196) ;
+    opacity: 0.7;
+    font-size: 20px;
+    position: center;
+}
+
+a{
+    display: inline-block;
+    color: orange;
+    padding: 12px 48px;
+    border:solid 5px rgb(2, 2, 48);
+    text-decoration: none;
+    font-size: 24px;
+    background-color: rgb(2, 2, 48);
+}
